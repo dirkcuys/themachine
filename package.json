@@ -1,0 +1,17 @@
+{
+  "name": "themachine",
+  "version": "0.1.0",
+  "description": "The machine that will take over the worlld",
+  "main": "run.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "author": "dirkcuys",
+  "devDependencies": {
+    "xmlhttprequest": "^1.6.0",
+    "q": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
