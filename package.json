@@ -9,7 +9,8 @@
   "author": "dirkcuys",
   "devDependencies": {
     "xmlhttprequest": "^1.6.0",
-    "q": "^2.0.2"
+    "q": "^2.0.2",
+    "nodemailer": "^0.7.1"
   },
   "engines": {
     "node": ">=0.10"
