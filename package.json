@@ -1,18 +1,25 @@
 {
   "name": "themachine",
   "version": "0.1.0",
-  "description": "The machine that will take over the worlld",
+  "description": "One word: world domination!",
   "main": "run.js",
+  "dependencies": {
+    "nodemailer": "^0.7.1",
+    "xmlhttprequest": "^1.6.0",
+    "q": "^2.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "postinstall": "bower install"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirkcuys/themachine.git"
   },
   "author": "dirkcuys",
-  "devDependencies": {
-    "xmlhttprequest": "^1.6.0",
-    "q": "^2.0.2",
-    "nodemailer": "^0.7.1"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dirkcuys/themachine/issues"
   },
-  "engines": {
-    "node": ">=0.10"
-  }
+  "homepage": "https://github.com/dirkcuys/themachine"
 }
